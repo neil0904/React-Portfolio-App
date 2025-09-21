@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { DiHtml5, DiCss3, DiDotnet, DiJavascript1 } from "react-icons/di";
-import { SiCplusplus, SiAngular, SiCanva, SiFigma, SiMysql, SiTailwindcss, SiBootstrap, SiGithub } from "react-icons/si";
+import { DiHtml5, DiCss3, DiJavascript1 } from "react-icons/di";
+import {SiMysql, SiTailwindcss, SiGithub } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
@@ -37,12 +37,7 @@ const Tech = () => {
                 <RiReactjsLine className="text-7xl text-cyan-400"/>
             </motion.div>
              
-            <motion.div 
-            variants = {iconVariants(3)}
-            initial= "initial" animate = "animate" 
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiAngular className="text-7xl text-red-400"/>
-            </motion.div>
+        
 
               <motion.div 
             variants = {iconVariants(5)}
@@ -72,26 +67,7 @@ const Tech = () => {
                 <FaNodeJs className="text-7xl text-green-500" />
             </motion.div>
 
-             <motion.div 
-            variants = {iconVariants(3.5)}
-            initial= "initial" animate = "animate" 
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <DiDotnet className="text-7xl text-purple-800"/>
-            </motion.div>
-
-             <motion.div 
-            variants = {iconVariants(4)}
-            initial= "initial" animate = "animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiCplusplus className="text-7xl text-blue-400"/>
-            </motion.div>
-
-             <motion.div 
-            variants = {iconVariants(2)}
-            initial= "initial" animate = "animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <p className="text-7xl text-purple-400">C#</p>
-            </motion.div>
+          
 
              <motion.div 
             variants = {iconVariants(7)}
@@ -107,12 +83,6 @@ const Tech = () => {
                 <SiTailwindcss className="text-7xl text-cyan-400"/>
             </motion.div>
 
-             <motion.div 
-            variants = {iconVariants(3)}
-            initial= "initial" animate = "animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiBootstrap className="text-7xl text-purple-600"/>
-            </motion.div>
            
 
              <motion.div 
@@ -122,24 +92,6 @@ const Tech = () => {
                 <SiGithub className="text-7xl text-gray-400"/>
             </motion.div>
 
-             <motion.div 
-            variants = {iconVariants(5)}
-            initial= "initial" animate = "animate"className='rounded-2xl border-4 border-neutral-800 p-4 flex items-center justify-center'>
-            <SiCanva className="text-7xl" style={{ fill: 'url(#gradient1)' }} />
-            <svg width="0" height="0">
-                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="#06b6d4" /> {/* cyan */}
-                <stop offset="100%" stopColor="#a855f7" /> {/* purple */}
-                </linearGradient>
-            </svg>
-            </motion.div>
-
-             <motion.div 
-            variants = {iconVariants(2.5)}
-            initial= "initial" animate = "animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiFigma className="text-7xl text-gray-400"/>
-            </motion.div>
 
 
         </div>
