@@ -1,5 +1,5 @@
 import blogsVideo from "../assets/projects/Blogs.mp4";
-import eshopVideo from "../assets/projects/eshop.mp4";
+import eshopVideo from "../assets/projects/eShop.mp4";
 import natureVideo from "../assets/projects/NatureMedia.mp4";
 import pakdonationVideo from "../assets/projects/Pakdonation.mp4";
 import workspotterVideo from "../assets/projects/Workspotter.mp4";
