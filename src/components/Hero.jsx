@@ -31,7 +31,7 @@ const Hero = () => {
                 <motion.img
                     initial={{x:100, opacity:0}} animate={{ x: 0, opacity:1 }} 
                     transition={{ ease: "easeOut", duration: 1, delay: 2 }}
-                    src={pic2} alt='Neelma Shakeel Niazi' className='rounded-lg shadow-lg h-100 w-85' />
+                    src={pic1} alt='Neelma Shakeel Niazi' className='rounded-lg shadow-lg h-100 w-85' />
             </div>
         </div>
       </div>
