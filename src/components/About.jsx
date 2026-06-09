@@ -1,4 +1,4 @@
-import pic1 from '../assets/pic1.jpg';
+import pic1 from '../assets/pic2.jpg';
 import  {ABOUT_TEXT} from '../constants';
 import { motion } from 'framer-motion';
 
@@ -20,7 +20,7 @@ const About = () => {
                     whileInView={{opacity:1, x:0}}
                     initial={{x:-100, opacity:0}} 
                     transition={{ duration: 0.5}}
-                    src={pic1} alt=""  className='rounded-lg shadow-lg h-100 w-85'  />
+                    src={pic2} alt=""  className='rounded-lg shadow-lg h-100 w-85'  />
                 </div>
                
             </div>
