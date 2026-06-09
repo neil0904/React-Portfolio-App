@@ -1,5 +1,5 @@
 import  {HERO_CONTENT} from '../constants';
-import pic2 from '../assets/pic2.jpg';
+import pic2 from '../assets/pic1.jpg';
 import { motion } from "motion/react"
 
 const Hero = () => {
